@@ -14,6 +14,7 @@ class Usf {
       600: Color(0xDD000000),
     },
   );
+  // ignore: constant_identifier_names
   static const int _UsfPrimaryValue = 0XFF000000;
 
   static const Color background = Color.fromARGB(255, 21, 113, 21);
@@ -23,7 +24,7 @@ class Usf {
     double padding = 24,
   }) {
     return OutlinedButton.styleFrom(
-      primary: color,
+      foregroundColor: color,
       padding: EdgeInsets.symmetric(vertical: padding),
       side: BorderSide(color: color),
       shape: const RoundedRectangleBorder(

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/pages/recordes_page.dart';
-import 'package:usf_gmplus/theme.dart';
 
 class Recordes extends StatefulWidget {
   const Recordes({Key? key}) : super(key: key);
@@ -23,7 +22,7 @@ class _RecordesState extends State<Recordes> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color.fromARGB(255, 18, 97, 18),
+      color: const Color.fromARGB(255, 18, 97, 18),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Column(

@@ -1,12 +1,9 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/controllers/game_controller.dart';
 import 'package:usf_gmplus/game_settings.dart';
 import 'package:usf_gmplus/models/game_opcao.dart';
 import 'package:usf_gmplus/models/game_play.dart';
-import 'package:usf_gmplus/theme.dart';
 import 'package:usf_gmplus/widgets/card_game.dart';
 import 'package:usf_gmplus/widgets/feedback_game.dart';
 import 'package:usf_gmplus/widgets/game_score.dart';

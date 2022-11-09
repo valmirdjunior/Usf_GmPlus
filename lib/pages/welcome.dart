@@ -1,12 +1,8 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/pages/home_page.dart';
-import 'package:usf_gmplus/theme.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'home_page.dart';
 
+// ignore: camel_case_types
 class Welcome_page extends StatelessWidget {
   const Welcome_page({Key? key}) : super(key: key);
   @override
@@ -20,12 +16,12 @@ class Welcome_page extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 5),
+                      padding: const EdgeInsets.only(top: 40, bottom: 5),
                       child: Image.asset('images/host.png',
                           width: 200, height: 150),
                     ),
                     const Padding(
-                      padding: EdgeInsets.only(top: 36, bottom: 200),
+                      padding: EdgeInsets.only(top: 36, bottom: 160),
                       child: Text(
                         'UNIVERSIDADE SÃO FRANCISCO',
                         style: TextStyle(
@@ -36,7 +32,7 @@ class Welcome_page extends StatelessWidget {
                     ),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: const Color.fromARGB(255, 16, 113, 92),
+                        backgroundColor: const Color.fromARGB(255, 16, 113, 92),
                       ),
                       child: const Text(
                         'INICIAR',
@@ -68,9 +64,20 @@ class Welcome_page extends StatelessWidget {
                           'Otavio Augusto Fidencio de Lima  | RA:    202119046'),
                     ),
                     const Padding(
-                      padding: EdgeInsets.only(top: 2, bottom: 200),
+                      padding: EdgeInsets.only(top: 2, bottom: 2),
                       child: Text(
                           'Valmir Chornechuka Junior        | RA: 002201901920'),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 20, bottom: 2),
+                      child: Text('Prof. José Matias Lemes Filho'),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(top: 50, bottom: 2),
+                      child: Text(
+                        version,
+                        style: TextStyle(color: Colors.black),
+                      ),
                     ),
                   ],
                 ),

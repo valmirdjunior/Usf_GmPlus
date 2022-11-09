@@ -1,16 +1,10 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/controllers/game_controller.dart';
-import 'package:usf_gmplus/pages/home_page.dart';
-import 'package:usf_gmplus/pages/login_page.dart';
 import 'package:usf_gmplus/pages/welcome.dart';
 import 'package:usf_gmplus/repositories/recordes_repository.dart';
 import 'package:usf_gmplus/theme.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:http/http.dart' as http;
 
 void main() async {
   await Hive.initFlutter();

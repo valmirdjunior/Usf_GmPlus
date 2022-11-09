@@ -3,7 +3,6 @@ import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/controllers/game_controller.dart';
 import 'package:usf_gmplus/models/game_play.dart';
 import 'package:usf_gmplus/pages/game_page.dart';
-import 'package:usf_gmplus/theme.dart';
 import 'package:provider/provider.dart';
 
 class CardNivel extends StatelessWidget {
@@ -35,13 +34,13 @@ class CardNivel extends StatelessWidget {
         decoration: BoxDecoration(
           border: Border.all(
             color: gamePlay.modo == Modo.normal
-                ? Color.fromARGB(255, 0, 0, 0)
-                : Color.fromARGB(255, 255, 255, 255), //Borda niveis
+                ? Colors.black
+                : Colors.white, //Borda niveis
           ),
           borderRadius: const BorderRadius.all(Radius.circular(10)),
           color: gamePlay.modo == Modo.normal
-              ? Color.fromARGB(255, 18, 97, 18)
-              : Color.fromARGB(255, 0, 0, 0), //Fundo niveis
+              ? const Color.fromARGB(255, 18, 97, 18)
+              : Colors.black, //Fundo niveis
         ),
         child: Center(
           child: Text(gamePlay.nivel.toString(),

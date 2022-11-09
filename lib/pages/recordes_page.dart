@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/repositories/recordes_repository.dart';
-import 'package:usf_gmplus/theme.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:provider/provider.dart';
 

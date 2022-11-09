@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:developer';
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/pages/home_page.dart';
@@ -26,12 +24,12 @@ class _LoginPageState extends State<LoginPage> {
         key: _formkey,
         child: Center(
             child: SingleChildScrollView(
-          padding: EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               TextFormField(
-                  decoration: InputDecoration(labelText: 'e-mail'),
+                  decoration: const InputDecoration(labelText: 'e-mail'),
                   controller: _emailController,
                   keyboardType: TextInputType.emailAddress,
                   validator: (email) {
@@ -45,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
                     return null;
                   }),
               TextFormField(
-                decoration: InputDecoration(labelText: 'senha'),
+                decoration: const InputDecoration(labelText: 'senha'),
                 controller: _passwordController,
                 obscureText: true,
                 keyboardType: TextInputType.text,
@@ -70,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => HomePage(),
+                          builder: (context) => const HomePage(),
                         ),
                       );
                     } else {
@@ -79,7 +77,7 @@ class _LoginPageState extends State<LoginPage> {
                     }
                   }
                 },
-                child: Text('ENTRAR'),
+                child: const Text('ENTRAR'),
               ),
             ],
           ),
@@ -88,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  final snackbar = SnackBar(
+  final snackbar = const SnackBar(
     content: Text(
       'e-mail ou senha são inválidos!',
       textAlign: TextAlign.center,
@@ -109,9 +107,11 @@ class _LoginPageState extends State<LoginPage> {
     if (resposta.statusCode == 200) {
       await sharedPreferences.setString(
           'token', "Token ${jsonDecode(resposta.body)['token']}");
+      // ignore: avoid_print
       print('Token ' + jsonDecode(resposta.body)['token']);
       return true;
     } else {
+      // ignore: avoid_print
       print(jsonDecode(resposta.body));
       return false;
     }

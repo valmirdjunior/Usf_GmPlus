@@ -1,11 +1,9 @@
-import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/controllers/game_controller.dart';
 import 'package:usf_gmplus/models/game_opcao.dart';
-import 'package:usf_gmplus/theme.dart';
 import 'package:provider/provider.dart';
 
 class CardGame extends StatefulWidget {
@@ -86,8 +84,8 @@ class _CardGameState extends State<CardGame>
               decoration: BoxDecoration(
                 border: Border.all(
                   color: widget.modo == Modo.normal
-                      ? Color.fromARGB(255, 0, 0, 0)
-                      : Color.fromARGB(255, 0, 0, 0), //Bordas game imagens
+                      ? Colors.black
+                      : Colors.black, //Bordas game imagens
                   width: 2,
                 ),
                 borderRadius: const BorderRadius.all(Radius.circular(5)),

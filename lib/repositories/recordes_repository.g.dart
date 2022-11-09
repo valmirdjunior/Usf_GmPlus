@@ -12,7 +12,6 @@ mixin _$RecordesRepository on RecordesRepositoryBase, Store {
   final _$pontuacaoReversivelAtom =
       Atom(name: 'RecordesRepositoryBase.recordesReversivel');
 
-  @override
   Map<dynamic, dynamic> get recordesReversivel {
     _$pontuacaoReversivelAtom.reportRead();
     return super.pontuacaoReversivel;

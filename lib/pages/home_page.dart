@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/constants.dart';
 import 'package:usf_gmplus/pages/nivel_page.dart';
-import 'package:usf_gmplus/theme.dart';
 import 'package:usf_gmplus/widgets/logo.dart';
 import 'package:usf_gmplus/widgets/recordes.dart';
 import 'package:usf_gmplus/widgets/start_button.dart';
@@ -35,7 +34,7 @@ class HomePage extends StatelessWidget {
             ),
             StartButton(
               title: 'Reversível',
-              color: Color.fromARGB(255, 0, 0, 0),
+              color: Colors.black,
               action: () => selecionarNivel(Modo.reversivel, context),
             ),
             const SizedBox(height: 60),
