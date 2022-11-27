@@ -1,0 +1,4 @@
+#Sun Nov 27 20:51:41 BRT 2022
+base.0=C\:\\Users\\valmirjunior\\Documents\\USF\\Quinta\\usf_gmplus\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

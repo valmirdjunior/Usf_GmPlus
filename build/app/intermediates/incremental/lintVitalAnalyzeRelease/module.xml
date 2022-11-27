@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\valmirjunior\Documents\USF\Quinta\usf_gmplus\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="C:\Users\valmirjunior\Documents\USF\Quinta\usf_gmplus\build\app"
+    bootClassPath="C:\src\platforms\android-32\android.jar;C:\src\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-32">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
