@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:usf_gmplus/controllers/game_controller.dart';
-import 'package:usf_gmplus/pages/welcome.dart';
+import 'package:usf_gmplus/pages/welcome2.dart';
 import 'package:usf_gmplus/repositories/recordes_repository.dart';
 import 'package:usf_gmplus/theme.dart';
 import 'package:hive_flutter/adapters.dart';
@@ -29,7 +29,7 @@ class App extends StatelessWidget {
       title: 'Memory Technology',
       debugShowCheckedModeBanner: false,
       theme: Usf.theme,
-      home: const Welcome_page(),
+      home: const Welcome_page2(),
     );
   }
 }

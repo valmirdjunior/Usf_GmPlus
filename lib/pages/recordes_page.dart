@@ -32,7 +32,7 @@ class RecordesPage extends StatelessWidget {
     if (widgets.isEmpty) {
       widgets.add(
         const Center(
-          child: Text('AINDA NÃO RECORDES!'),
+          child: Text('SEM RECORDES!'),
         ),
       );
     }
@@ -46,7 +46,10 @@ class RecordesPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Recordes'),
+        title: const Text(
+          'Recordes',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),

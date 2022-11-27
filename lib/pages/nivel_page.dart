@@ -16,7 +16,10 @@ class NivelPage extends StatelessWidget {
         .toList();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Nível do Jogo'),
+        title: const Text(
+          'Nível do Jogo',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 48),
