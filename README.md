@@ -17,8 +17,7 @@
 
 ## Executando o programa:
 
-	Para iniciar o programa, basta atender todos os requisitos conforme a imagem abaixo:
-	![image](https://user-images.githubusercontent.com/102265453/204167889-1e12af4b-6482-42f7-9d54-a5d58c839ece.png)
+	Para iniciar o programa, basta atender todos os requisitos de instalção
 	E executar na Ide o arquivo - Usf_GmPlus/lib/main.dart
 	Lista de comandos:
 
