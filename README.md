@@ -54,6 +54,11 @@
 	09.11 - Lançamento inicial
 	
 	
+## Video de apresentação
+
+	https://drive.google.com/file/d/1Hg0RNoFoy8GZwQLiEbFr0C7aU65cOjRG/view?usp=sharing
+	
+
 ## Agradecimentos
 
 		Agradecemos a Universidade São Francisco e ao professor Jose Matia Lemes Filho pela oportunidade que nos possibilitou uma amostra da vivencia e da rotina em um projeto de um sistema móvel.
