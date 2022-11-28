@@ -9,7 +9,7 @@
  1. Instalação do Flutter (3.0.5)
  2. Android SDK (32.1.0-rc1)
  3. Android Studio (2021.1)
- 4. Dispositivo com android 9.0
+ 4. Dispositivo com android 9.0 ou superior
 
 ## Instalação: 
 
