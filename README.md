@@ -45,7 +45,9 @@
 ## Historico de versão
 
   27.11 - Adicionada resposividade ao desing
+	
 	13.10 - Várias correções de bugs e otimizações
+	
 	09.11 - Lançamento inicial
 	
 	
