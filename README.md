@@ -40,6 +40,8 @@
 	Ra. 202119046 – Otavio Augusto Fidencio de Lima
 	Ra. 202102666 – Giovani Storani Jacon
 	Ra. 202125222 – João Vitor da Silva Martins
+	
+	Jose Matia Lemes Filho
 
 
 ## Historico de versão
