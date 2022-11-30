@@ -2,7 +2,7 @@
 
 ## O que é nosso projeto ?
 
-	O projeto é um jogo da memória, com o tema de peças de hadware para os cards. O objetivo do jogo é memorizar imagens rapidamente, de forma a desenvolver e aperfeiçoar o raciocínio, principalmente para crianças, através da criação de relações entre imagem e sequência das cartas dispostas.
+	O projeto é um jogo da memória, com o tema de peças de hardware para os cards. O objetivo do jogo é memorizar imagens rapidamente, de forma a desenvolver e aperfeiçoar o raciocínio, principalmente para crianças, através da criação de relações entre imagem e sequência das cartas dispostas.
    
 ## Requisitos: 
 
@@ -57,6 +57,14 @@
 ## Video de apresentação
 
 	https://drive.google.com/file/d/1Hg0RNoFoy8GZwQLiEbFr0C7aU65cOjRG/view?usp=sharing
+
+## Trabalhos Futuros
+	
+	incluir sessão de usuarios
+	
+	Armazenar as pontuações no banco de dados
+	
+	Modo multiplayer
 	
 
 ## Agradecimentos
